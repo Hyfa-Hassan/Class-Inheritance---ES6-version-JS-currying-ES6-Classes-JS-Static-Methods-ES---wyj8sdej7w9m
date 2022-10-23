@@ -15,4 +15,4 @@ var circle1 = new Circle(green,5);
 circle1.area();
 circle1.drawShape();
 // export class using module.exports
-export {Shape, Circle}
+module.exports = Shape

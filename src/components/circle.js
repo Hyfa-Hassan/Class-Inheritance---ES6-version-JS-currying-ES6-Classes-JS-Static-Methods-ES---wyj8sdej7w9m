@@ -3,7 +3,10 @@ const hello = require('./Shape')
 // declare class
 class Circle extends Shape{
   constructor(){
-    super(calculateArea);
+    super();
+    calculateArea(){
+        console.log("first")
+    }
   }
 }
 
